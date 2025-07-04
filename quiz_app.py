@@ -295,7 +295,7 @@ PLACEHOLDER"""
 
 
 personality_matches = {
-    "Green Dot": """**"The overthinker in a spiral, but still making jokes."**
+    "Green Dot": """**The overthinker in a spiral, but still making jokes.**
 
 Loves a bit of heartbreak with a slice of chaotic romance. You’re smart, self-aware, and deeply committed to bad decisions — but with taste. You flirt via existential memes and keep a well-thumbed copy of something sad in your tote bag.""",
 
@@ -323,7 +323,7 @@ You see the system. You’ve memorized the script. And now? You’re flipping th
 
 You love a mash-up of revolution, glitter, and liberation. You’re here for Black excellence, queer joy, and the audacity to reimagine the past with power and play. Time travel is real and it’s called drag.""",
 
-    "Crying in H Mart": """**"Tender soul with a memory for smells."**
+    "Crying in H Mart": """**A tender soul with a memory for smells.**
 
 You hold grief in one hand and a spoon in the other. You feel things hard, love deeply, and know that recipes are rituals. You’ve cried in public and made it poetic.""",
 
