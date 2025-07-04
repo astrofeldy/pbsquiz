@@ -119,6 +119,25 @@ quiz_data = [
     }
 ]
 
+scoring = {
+    "q1": {
+        "A": ["Green Dot", "The True Deceiver"],
+        "B": ["Crying in H Mart", "Ask Helen about Fanfic"],
+        "C": ["The Darkness Outside Us", "The Work"],
+        "D": ["Disorientation", "Jack Charles: Born Again Blakfella"],
+        "E": ["Interior Chinatown", "The Book of Elsewhere"]
+    },
+    "q2": {
+        "A": ["The Book of Elsewhere", "Greta and Valdin"],
+        "B": ["Unmasking Autism", "Crying in H Mart"],
+        "C": ["The Work", "Ask Helen about Fanfic"],
+        "D": ["The Darkness Outside Us", "Everything is Tuberculosis"],
+        "E": ["Disorientation", "Interior Chinatown"]
+    },
+    # Add q3–q10 similarly
+}
+
+
 # Display all questions at once
 for i, q in enumerate(quiz_data):
     st.subheader(f"{i + 1}. {q['question']}")
@@ -131,14 +150,34 @@ for i, q in enumerate(quiz_data):
     if selected:
         st.session_state.answers[f"q{i+1}"] = selected[0]  # store only the letter A/B/C/etc.
 
+# tally function
+from collections import Counter
+
+def tally_results(answers, scoring):
+    tally = Counter()
+    for q_key, answer_letter in answers.items():
+        matched_books = scoring.get(q_key, {}).get(answer_letter, [])
+        tally.update(matched_books)
+    return tally
+
 # Submit button
 if st.button("Submit"):
     if len(st.session_state.answers) < len(quiz_data):
         st.warning("Please answer all questions before submitting!")
     else:
         st.success("🎉 You've completed the quiz!")
-        # Add scoring logic here and show book recommendation
-        st.write("📚 Your perfect book match is... [placeholder]")
+
+        # Tally results
+        results = tally_results(st.session_state.answers, scoring)
+        top_books = results.most_common(3)
+
+        st.write("📚 Your top recommended read:")
+        st.markdown(f"### 🥇 **{top_books[0][0]}**")
+
+        if len(top_books) > 1:
+            st.write("Other strong matches:")
+            for book, score in top_books[1:]:
+                st.markdown(f"- **{book}** (matched {score} times)")
 
 # Store answers using Streamlit's session state
 # if "answers" not in st.session_state:
