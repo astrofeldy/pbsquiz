@@ -312,18 +312,18 @@ if st.button("Submit"):
         results = tally_results(st.session_state.answers, scoring)
         top_books = results.most_common(3)
 
-# Display top match with full detail
-top_book = top_books[0][0]
+        # Display top match with full detail
+        top_book = top_books[0][0]
 
-st.markdown("📚 Your top recommended read:")
-st.markdown(f"### 🥇 **{top_book}**")
+        st.markdown("📚 Your top recommended read:")
+        st.markdown(f"### 🥇 **{top_book}**")
 
-# Display personality match
-st.markdown(personality_matches.get(top_book, ""))
-st.markdown("---")
+        # Display personality match
+        st.markdown(personality_matches.get(top_book, ""))
+        st.markdown("---")
 
-# Display book synopsis
-st.markdown(book_info.get(top_book, "No synopsis available."))
+        # Display book synopsis
+        st.markdown(book_info.get(top_book, "No synopsis available."))
 
 
         if len(top_books) > 1:
