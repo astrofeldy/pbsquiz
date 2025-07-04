@@ -40,24 +40,44 @@ quiz_data = [
 
 # function to display a question and store answer
 
+import streamlit as st
+
+quiz_data = [ ... ]  # your quiz_data list here
+
 if "current_q" not in st.session_state:
     st.session_state.current_q = 0
 
-def display_question(q_num, q_data):
-    st.subheader(f"{q_num + 1}. {q_data['question']}")
+if "answers" not in st.session_state:
+    st.session_state.answers = {}
+
+def display_question(q_num):
+    q = quiz_data[q_num]
+    st.subheader(f"{q_num + 1}. {q['question']}")
     answer = st.radio(
         "Choose one:",
-        options=q_data["options"],
+        options=q["options"],
         key=f"q{q_num}_radio",
-        index=None
+        index=None,
     )
-    if answer is not None:
-        st.session_state.answers[f"q{q_num+1}"] = answer[0]
+    return answer
+
+current_q = st.session_state.current_q
+answer = display_question(current_q)
+
+if answer is not None:
+    # Save answer
+    st.session_state.answers[f"q{current_q+1}"] = answer[0]
+
+    # Show Next button only if not last question
+    if current_q < len(quiz_data) - 1:
         if st.button("Next"):
-            if st.session_state.current_q < len(quiz_data) - 1:
-                st.session_state.current_q += 1
+            st.session_state.current_q += 1
+            st.experimental_rerun()
     else:
-        st.warning("Please select an answer to continue.")
+        st.write("🎉 You've completed the quiz!")
+        # Here you can add code to tally & show results
+else:
+    st.warning("Please select an answer to continue.")
 
 display_question(st.session_state.current_q, quiz_data[st.session_state.current_q])
 
