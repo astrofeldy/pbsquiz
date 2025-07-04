@@ -440,7 +440,7 @@ if st.button("Submit"):
 
 
         # Display personality match
-        st.markdown(f"### You're {personality_matches.get(top_book)}**")
+        st.markdown(f"### You're {personality_matches.get(top_book)}")
         st.markdown(f"### 🥇 Your half-way-hero book match is: **{top_book}**")
         
         # Display header before book description
