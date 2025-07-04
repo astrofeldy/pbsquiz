@@ -259,7 +259,9 @@ if st.button("Submit"):
         top_books = results.most_common(3)
 
         st.write("📚 Your top recommended read:")
-        st.markdown(f"### 🥇 **{top_books[0][0]}**")
+        top_book = top_books[0][0]
+        st.markdown(f"### 🥇 **{top_book}**")
+        st.markdown(f"_{book_info.get(top_book, 'No description available.')}_")
 
         if len(top_books) > 1:
             st.write("Other strong matches:")
