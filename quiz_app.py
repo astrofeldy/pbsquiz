@@ -209,6 +209,60 @@ book_info = {
     "Ask Helen about Fanfic": "A genre recommendation via Helen: chaotic queer romance meets anime energy and moral depth. Ask Helen — she has recs."
 }
 
+personality_matches = {
+    "Green Dot": """**"The overthinker in a spiral, but still making jokes."**
+
+Loves a bit of heartbreak with a slice of chaotic romance. You’re smart, self-aware, and deeply committed to bad decisions — but with taste. You flirt via existential memes and keep a well-thumbed copy of something sad in your tote bag.""",
+
+    "The Work": """**"Emotionally sincere but academically intense."**
+
+Probably falling in love with someone at a gallery opening or during a philosophical argument. You drink long blacks and think capitalism should be more ethical (but hotter). Your red flags are well-curated and you think about them during pilates.""",
+
+    "Disorientation": """**"The burnout academic with a meme folder and a grudge."**
+
+You’ve been in a department meeting that became a class war. You survive by deploying humour, calling out nonsense, and getting a little unhinged in the group chat. You use footnotes *and* chaos to make a point.""",
+
+    "The True Deceiver": """**"Mysterious girl autumn."**
+
+You’ve been described as ‘quietly intimidating.’ You bake sourdough as a power move. You trust no one, love sparingly, and probably live near a forest (or wish you did).""",
+
+    "The Darkness Outside Us": """**"The queer disaster astronaut with too many feelings."**
+
+You're trapped in a space mission *and* your own emotional growth arc. You want to scream “what is happening??” — but only after making out with your nemesis. You believe in love, even if it’s encrypted.""",
+
+    "Interior Chinatown": """**"Satirical, stylish, and silently keeping score."**
+
+You see the system. You’ve memorized the script. And now? You’re flipping the narrative. You hold contradictions like a pro and weaponise awkward silence for justice.""",
+
+    "Harriet Tubman: Live in Concert": """**"The history nerd who slays."**
+
+You love a mash-up of revolution, glitter, and liberation. You’re here for Black excellence, queer joy, and the audacity to reimagine the past with power and play. Time travel is real and it’s called drag.""",
+
+    "Crying in H Mart": """**"Tender soul with a memory for smells."**
+
+You hold grief in one hand and a spoon in the other. You feel things hard, love deeply, and know that recipes are rituals. You’ve cried in public and made it poetic.""",
+
+    "Greta and Valdin": """**"Chaos with charisma."**
+
+You're juggling dating apps, family group chats, and a too-intense crush, all with stunning outfits and solid jokes. Your mess is lovable, and you know it. People fall in love with you at brunch.""",
+
+    "Unmasking Autism": """**"Self-aware, boundary-setting, and done with masking."**
+
+You're learning how to exist in a world that doesn't always get it — and doing it with clarity, courage, and maybe a new spreadsheet system for your special interests. You’re tired of pretending, and that’s your power.""",
+
+    "The Book of Elsewhere": """**"Ancient soul in a modern timeline."**
+
+You’ve lived a thousand lives, each with a sword and a tragic backstory. You’re not afraid of darkness — you *are* the darkness. You’re collecting scars like souvenirs and still look great in leather.""",
+
+    "Everything is Tuberculosis": """**"The earnest explainer friend."**
+
+You read footnotes and cry about access to medication. You bring the big picture *and* the fun facts. You’ve made three spreadsheets and one infographic about injustice today.""",
+
+    "Ask Helen about Fanfic": """**"Queer-coded, deeply online, and suspiciously emotionally literate."**
+
+You read character studies like scripture, love a redemption arc, and are somehow both trash and art. You’ve never finished a fic without analyzing it. Also you have *takes*."""
+}
+
 
 # Display all questions at once
 for i, q in enumerate(quiz_data):
