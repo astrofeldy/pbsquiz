@@ -193,7 +193,7 @@ scoring = {
 }
 
 book_info = {
-    "Green Dot": """**Green Dot**  
+    "Green Dot": """**Green Dot by Madeleine Gray**  
 *Emotional, funny, contemporary fiction.*
 
 A darkly humorous and emotionally raw story of young adulthood, complicated relationships, and self-discovery.
