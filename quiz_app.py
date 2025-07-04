@@ -271,7 +271,8 @@ Enemies-turned-allies must survive alone in deep space, with queer romance and m
 PLACEHOLDER""",
 
     "Crying in H Mart": """**Crying in H Mart**  
-*Emotional, reflective memoir.*
+    
+*An emotional, reflective memoir.*
 
 Michelle Zauner’s bestselling story of grief, culture, food, and the bond between mother and daughter.
 
