@@ -31,7 +31,7 @@ quiz_data = [
         "question": "You gain the power to instantly understand one subject. What do you pick?",
         "options": [
             "A) How dragon mythology has influenced 90s boy band choreography",
-            "B) The entire DSM-5, but emotionally, not intellectually",
+            "B) The entire DSM-5, but either emotionally or intellectually, never both",
             "C) How to ghostwrite your own autobiography",
             "D) Quantum physics as it relates to that cool shiny paint you see on cars sometimes",
             "E) How to take a bangin selfie and dismantle capitalism at the same time"
