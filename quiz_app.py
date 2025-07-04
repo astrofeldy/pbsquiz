@@ -208,5 +208,5 @@ if st.button("Submit"):
    # st.warning("Please select an answer to continue.")
 
 # temporary checking
-st.write("Current answers:", st.session_state.answers)
+#st.write("Current answers:", st.session_state.answers)
 
