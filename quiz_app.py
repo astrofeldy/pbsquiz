@@ -26,7 +26,8 @@ q1 = st.radio(
         "C) Your story wasn’t about love — it was about survival.",
         "D) Let them think you’re from Birmingham. It’s safer that way.",
         "E) The archive knows. The archive always knows."
-    ]
+    ],
+    index=None
 )
 
 # Store the selected answer
