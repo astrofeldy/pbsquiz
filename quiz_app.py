@@ -265,8 +265,10 @@ if st.button("Submit"):
 
         if len(top_books) > 1:
             st.write("Other strong matches:")
-            for book, score in top_books[1:]:
-                st.markdown(f"- **{book}** (matched {score} times)")
+             for book, score in top_books[1:]:
+                st.markdown(f"**{book}** (matched {score} times)")
+                st.markdown(f"_{book_info.get(book, 'No description available.')}_")
+
 
         #Show how answers contributed to matches
         explain_matches(st.session_state.answers, quiz_data, scoring)
