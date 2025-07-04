@@ -122,21 +122,21 @@ quiz_data = [
 scoring = {
     "q1": {
         "A": ["Green Dot", "The True Deceiver"],
-        "B": ["Crying in H Mart", "Ask Helen about Fanfic"],
+        "B": ["Crying in H Mart by SOMEONE", "Ask Helen about Fanfic"],
         "C": ["The Darkness Outside Us", "The Work"],
         "D": ["Disorientation", "Jack Charles: Born Again Blakfella"],
         "E": ["Interior Chinatown", "The Book of Elsewhere"]
     },
     "q2": {
         "A": ["The Book of Elsewhere", "Greta and Valdin"],
-        "B": ["Unmasking Autism", "Crying in H Mart"],
+        "B": ["Unmasking Autism", "Crying in H Mart by SOMEONE"],
         "C": ["The Work", "Ask Helen about Fanfic"],
         "D": ["The Darkness Outside Us", "Everything is Tuberculosis"],
         "E": ["Disorientation", "Interior Chinatown"]
     },
     "q3": {
         "A": ["The True Deceiver", "The Book of Elsewhere"],
-        "B": ["Jack Charles: Born Again Blakfella", "Crying in H Mart"],
+        "B": ["Jack Charles: Born Again Blakfella", "Crying in H Mart by SOMEONE"],
         "C": ["Greta and Valdin", "Ask Helen about Fanfic"],
         "D": ["The Work", "Disorientation"],
         "E": ["Unmasking Autism", "Interior Chinatown"]
@@ -149,7 +149,7 @@ scoring = {
         "E": ["The True Deceiver", "The Darkness Outside Us"]
     },
     "q5": {
-        "A": ["Crying in H Mart", "Jack Charles: Born Again Blakfella"],
+        "A": ["Crying in H Mart by SOMEONE", "Jack Charles: Born Again Blakfella"],
         "B": ["The Work", "Unmasking Autism"],
         "C": ["The True Deceiver", "The Book of Elsewhere"],
         "D": ["Green Dot", "Greta and Valdin"],
@@ -158,7 +158,7 @@ scoring = {
     "q6": {
         "A": ["The Work", "Green Dot"],
         "B": ["Greta and Valdin", "Everything is Tuberculosis"],
-        "C": ["The True Deceiver", "Crying in H Mart"],
+        "C": ["The True Deceiver", "Crying in H Mart by SOMEONE"],
         "D": ["Ask Helen about Fanfic", "The Darkness Outside Us"],
         "E": ["Interior Chinatown", "Disorientation"]
     },
@@ -181,14 +181,14 @@ scoring = {
         "B": ["Disorientation", "Ask Helen about Fanfic"],
         "C": ["The Darkness Outside Us", "The Book of Elsewhere"],
         "D": ["Everything is Tuberculosis", "Interior Chinatown"],
-        "E": ["Greta and Valdin", "Crying in H Mart"]
+        "E": ["Greta and Valdin", "Crying in H Mart by SOMEONE"]
     },
     "q10": {
         "A": ["The Book of Elsewhere", "The True Deceiver"],
         "B": ["Disorientation", "Ask Helen about Fanfic"],
         "C": ["Unmasking Autism", "Jack Charles: Born Again Blakfella"],
         "D": ["The Darkness Outside Us", "Greta and Valdin"],
-        "E": ["Crying in H Mart", "Everything is Tuberculosis"]
+        "E": ["Crying in H Mart by SOMEONE", "Everything is Tuberculosis"]
     }
 }
 
@@ -270,7 +270,7 @@ Enemies-turned-allies must survive alone in deep space, with queer romance and m
 
 PLACEHOLDER""",
 
-    "Crying in H Mart by SOMEONE": """**Crying in H Mart by SOMEONE**  
+    "Crying in H Mart by SOMEONE": """**Crying in H Mart by SOMEONE by SOMEONE**  
     
 *An emotional, reflective memoir.*
 
@@ -323,7 +323,7 @@ You see the system. You’ve memorized the script. And now? You’re flipping th
 
 You love a mash-up of revolution, glitter, and liberation. You’re here for Black excellence, queer joy, and the audacity to reimagine the past with power and play. Time travel is real and it’s called drag.""",
 
-    "Crying in H Mart": """**a tender soul with a memory for smells.**
+    "Crying in H Mart by SOMEONE": """**a tender soul with a memory for smells.**
 
 You hold grief in one hand and a spoon in the other. You feel things hard, love deeply, and know that recipes are rituals. You’ve cried in public and made it poetic.""",
 
@@ -404,7 +404,7 @@ if st.button("Submit"):
 
 
         # Display personality match
-        st.markdown(f"### You're a {personality_matches.get(top_book)}**")
+        st.markdown(f"### You're {personality_matches.get(top_book)}**")
         st.markdown(f"### 🥇 Your half-way-hero book match is: **{top_book}**")
         
         # Display header before book description
