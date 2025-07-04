@@ -270,7 +270,7 @@ Enemies-turned-allies must survive alone in deep space, with queer romance and m
 
 PLACEHOLDER""",
 
-    "Crying in H Mart": """**Crying in H Mart by SOMEONE**  
+    "Crying in H Mart by SOMEONE": """**Crying in H Mart by SOMEONE**  
     
 *An emotional, reflective memoir.*
 
