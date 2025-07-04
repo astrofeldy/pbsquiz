@@ -404,11 +404,11 @@ if st.button("Submit"):
 
         # Display personality match
         st.markdown(personality_matches.get(top_book, ""))
-        st.markdown("---")
 
         # Display book synopsis
         st.markdown(book_info.get(top_book, "No synopsis available."))
 
+        st.markdown("---")
 
         if len(top_books) > 1:
             st.write("Other strong matches:")
@@ -419,36 +419,4 @@ if st.button("Submit"):
 
         #Show how answers contributed to matches
         explain_matches(st.session_state.answers, quiz_data, scoring)
-
-
-# Store answers using Streamlit's session state
-# if "answers" not in st.session_state:
-  #  st.session_state.answers = {}
-
-# Question 1
-# st.subheader("Question 1: You meet your future self in a dream. They offer one cryptic sentence. What is it?")
-
-# q1 = st.radio(
- #    "Select your sentence",
-   # options=[
-    #    "A) You were right to eat the forbidden cheese.",
-     #   "B) All your timelines converge in noodle aisle.",
-      #  "C) Your story wasn’t about love — it was about survival.",
-       # "D) Let them think you’re from Birmingham. It’s safer that way.",
-        #"E) The archive knows. The archive always knows."
-  #  ],
-   # index=None
-#)
-
-# next button
-# if q1 is not None:
-  #  if st.button("Next"):
-   #     # Logic to move to the next question
-    #    st.session_state.current_question = 2
-# else:
-  #  st.button("Next", disabled=True)
-   # st.warning("Please select an answer to continue.")
-
-# temporary checking
-#st.write("Current answers:", st.session_state.answers)
 
