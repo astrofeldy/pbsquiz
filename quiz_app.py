@@ -215,6 +215,21 @@ def tally_results(answers, scoring):
         tally.update(matched_books)
     return tally
 
+#define how to explain matches
+def explain_matches(answers, quiz_data, scoring):
+    st.markdown("---")
+    st.subheader("📖 Here's how your answers matched your book:")
+    for i, q in enumerate(quiz_data):
+        q_key = f"q{i+1}"
+        user_answer_letter = answers.get(q_key)
+        user_answer_text = next((opt for opt in q["options"] if opt.startswith(user_answer_letter)), "N/A")
+        matched_books = scoring.get(q_key, {}).get(user_answer_letter, [])
+
+        st.markdown(f"**Q{i+1}. {q['question']}**")
+        st.markdown(f"Your answer: *{user_answer_text}*")
+        st.markdown(f"→ Matched books: {', '.join(matched_books) if matched_books else 'None'}")
+        st.markdown("---")
+
 # Submit button
 if st.button("Submit"):
     if len(st.session_state.answers) < len(quiz_data):
@@ -234,7 +249,7 @@ if st.button("Submit"):
             for book, score in top_books[1:]:
                 st.markdown(f"- **{book}** (matched {score} times)")
 
-        # ⬇️ Show how answers contributed to matches
+        #Show how answers contributed to matches
         explain_matches(st.session_state.answers, quiz_data, scoring)
 
 
