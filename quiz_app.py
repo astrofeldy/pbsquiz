@@ -400,11 +400,11 @@ if st.button("Submit"):
         # Display top match with full detail
         top_book = top_books[0][0]
 
-        st.markdown("📚 Your top recommended read:")
+#        st.markdown("📚 Your top recommended read:")
         st.markdown(f"### 🥇 **{top_book}**")
 
         # Display personality match
-        st.markdown(personality_matches.get(top_book, ""))
+        st.markdown(f"### 🥇 **{personality_matches.get(top_book, "")}**")
 
         # Display header before book description
         st.markdown(f"**More about your half-way-hero book match:**")
