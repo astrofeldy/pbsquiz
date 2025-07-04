@@ -234,6 +234,10 @@ if st.button("Submit"):
             for book, score in top_books[1:]:
                 st.markdown(f"- **{book}** (matched {score} times)")
 
+        # ⬇️ Show how answers contributed to matches
+        explain_matches(st.session_state.answers, quiz_data, scoring)
+
+
 # Store answers using Streamlit's session state
 # if "answers" not in st.session_state:
   #  st.session_state.answers = {}
