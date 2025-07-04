@@ -10,10 +10,10 @@ if "answers" not in st.session_state:
     st.session_state.answers = {}
 
 # Question 1
-st.subheader("Question 1")
+st.subheader("Question 1: You meet your future self in a dream. They offer one cryptic sentence. What is it?")
 
 q1 = st.radio(
-    "You meet your future self in a dream. They offer one cryptic sentence. What is it?:",
+    #"You meet your future self in a dream. They offer one cryptic sentence. What is it?:",
     options=[
         "A) You were right to eat the forbidden cheese.",
         "B) All your timelines converge in noodle aisle.",
