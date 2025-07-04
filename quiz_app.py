@@ -134,7 +134,62 @@ scoring = {
         "D": ["The Darkness Outside Us", "Everything is Tuberculosis"],
         "E": ["Disorientation", "Interior Chinatown"]
     },
-    # Add q3–q10 similarly
+    "q3": {
+        "A": ["The True Deceiver", "The Book of Elsewhere"],
+        "B": ["Jack Charles: Born Again Blakfella", "Crying in H Mart"],
+        "C": ["Greta and Valdin", "Ask Helen about Fanfic"],
+        "D": ["The Work", "Disorientation"],
+        "E": ["Unmasking Autism", "Interior Chinatown"]
+    },
+    "q4": {
+        "A": ["Interior Chinatown", "The Book of Elsewhere"],
+        "B": ["Unmasking Autism", "Everything is Tuberculosis"],
+        "C": ["Ask Helen about Fanfic", "Greta and Valdin"],
+        "D": ["Disorientation", "Green Dot"],
+        "E": ["The True Deceiver", "The Darkness Outside Us"]
+    },
+    "q5": {
+        "A": ["Crying in H Mart", "Jack Charles: Born Again Blakfella"],
+        "B": ["The Work", "Unmasking Autism"],
+        "C": ["The True Deceiver", "The Book of Elsewhere"],
+        "D": ["Green Dot", "Greta and Valdin"],
+        "E": ["Ask Helen about Fanfic", "Disorientation"]
+    },
+    "q6": {
+        "A": ["The Work", "Green Dot"],
+        "B": ["Greta and Valdin", "Everything is Tuberculosis"],
+        "C": ["The True Deceiver", "Crying in H Mart"],
+        "D": ["Ask Helen about Fanfic", "The Darkness Outside Us"],
+        "E": ["Interior Chinatown", "Disorientation"]
+    },
+    "q7": {
+        "A": ["The True Deceiver", "Jack Charles: Born Again Blakfella"],
+        "B": ["Greta and Valdin", "The Work"],
+        "C": ["Interior Chinatown", "Unmasking Autism"],
+        "D": ["The Darkness Outside Us", "Ask Helen about Fanfic"],
+        "E": ["Disorientation", "Green Dot"]
+    },
+    "q8": {
+        "A": ["Green Dot", "Greta and Valdin"],
+        "B": ["Ask Helen about Fanfic", "Disorientation"],
+        "C": ["Interior Chinatown", "The Work"],
+        "D": ["The Book of Elsewhere", "Everything is Tuberculosis"],
+        "E": ["The True Deceiver", "Unmasking Autism"]
+    },
+    "q9": {
+        "A": ["Unmasking Autism", "Green Dot"],
+        "B": ["Disorientation", "Ask Helen about Fanfic"],
+        "C": ["The Darkness Outside Us", "The Book of Elsewhere"],
+        "D": ["Everything is Tuberculosis", "Interior Chinatown"],
+        "E": ["Greta and Valdin", "Crying in H Mart"]
+    },
+    "q10": {
+        "A": ["The Book of Elsewhere", "The True Deceiver"],
+        "B": ["Disorientation", "Ask Helen about Fanfic"],
+        "C": ["Unmasking Autism", "Jack Charles: Born Again Blakfella"],
+        "D": ["The Darkness Outside Us", "Greta and Valdin"],
+        "E": ["Crying in H Mart", "Everything is Tuberculosis"]
+    }
 }
 
 
