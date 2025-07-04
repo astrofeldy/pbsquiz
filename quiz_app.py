@@ -407,10 +407,7 @@ if st.button("Submit"):
         st.markdown(personality_matches.get(top_book, ""))
 
         # Display header before book description
-        st.markdown(f"**More about {top_book}:**")
-
-        # Display book synopsis
-        st.markdown(book_info.get(top_book, "No synopsis available."))
+        st.markdown(f"**More about your half-way-hero book match:**")
 
         # Display book synopsis
         st.markdown(book_info.get(top_book, "No synopsis available."))
