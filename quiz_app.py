@@ -192,6 +192,23 @@ scoring = {
     }
 }
 
+book_info = {
+    "Green Dot": "Emotional, funny, contemporary fiction. A darkly humorous and emotionally raw story of young adulthood, complicated relationships, and self-discovery.",
+    "Harriet Tubman: Live in Concert": "Fantasy, historical, funny, fast-paced fiction. A blend of history and fantasy with humor, celebrating Black resilience and queer identity.",
+    "The Work": "Emotional, reflective, contemporary fiction. A sharp, introspective story of ambition, art, and love in modern relationships.",
+    "Disorientation": "Funny, reflective, satirical fiction. An academic satire that dives deep into cultural identity, racism, and belonging.",
+    "Interior Chinatown": "Funny, genre-bending fiction. A witty critique of race and representation told through the lens of a screenplay format.",
+    "The Book of Elsewhere": "Dark, genre-blurring fantasy. Immortal warriors, mysterious forces, and gritty adventure collide in this mythic epic.",
+    "Jack Charles: Born Again Blakfella": "Emotional, challenging memoir. A powerful story of survival, culture, addiction, and redemption by a legendary performer and activist.",
+    "The True Deceiver": "Mysterious, literary fiction. A slow-burning psychological tale of deception, loneliness, and shifting power.",
+    "Unmasking Autism": "Reflective, informative non-fiction. A compassionate guide to understanding and embracing neurodivergence and authenticity.",
+    "Everything is Tuberculosis": "Science, history, equity. John Green explores global health, human stories, and the weird corners of illness with wit and compassion.",
+    "The Darkness Outside Us": "Emotional YA sci-fi. Enemies-turned-allies must survive alone in deep space, with queer romance and mind-bending mysteries.",
+    "Crying in H Mart": "Emotional, reflective memoir. Michelle Zauner’s bestselling story of grief, culture, food, and the bond between mother and daughter.",
+    "Greta and Valdin": "Light-hearted, queer literary fiction. A hilarious, touching sibling story about culture, crushes, and growing up in Auckland.",
+    "Ask Helen about Fanfic": "A genre recommendation via Helen: chaotic queer romance meets anime energy and moral depth. Ask Helen — she has recs."
+}
+
 
 # Display all questions at once
 for i, q in enumerate(quiz_data):
