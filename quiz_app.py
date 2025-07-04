@@ -202,7 +202,7 @@ At 24, Hera is a violently unsatisfied disaster. To her, the future is nothing b
 
 With her daringly specific and intimate voice, Gray has created an irresistible and messy love story about the terrible allure of wanting something that promises nothing; about the joys and indignities of coming into adulthood against the pitfalls of the 21st century; and the winding, torturous, and often very funny journey we take in deciding who we are and who we want to be.""",
 
-    "Harriet Tubman: Live in Concert": """**Harriet Tubman: Live in Concert**  
+    "Harriet Tubman: Live in Concert": """**Harriet Tubman: Live in Concert by Bob the Drag Queen**  
 *Fantasy, historical, funny, fast-paced fiction.*
 
 A blend of history and fantasy with humor, celebrating Black resilience and queer identity.
@@ -212,7 +212,7 @@ Harriet Tubman and four of the enslaved persons she led to freedom want to tell 
 In an age of miracles where our greatest heroes from history have magically, unexplainably returned to shake us out of our confusion and hate, Harriet Tubman is back, and she has a lot to say.
 Original, evocative, and historic, Harriet Tubman: Live in Concert is a landmark achievement that will burrow deep into our hearts (and ears).""",
 
-    "The Work": """**The Work**  
+    "The Work": """**The Work by Bri Lee**  
 *Emotional, reflective, contemporary fiction.*
 
 A sharp, introspective story of ambition, art, and love in modern relationships.
@@ -223,7 +223,7 @@ With an ocean between them they try to get back to work, but they're each strugg
 
 If love costs and art takes, what price do we pay for wanting it all? The Work is about the biggest intersections of life: of art and commerce, of intimacy and distance, of talent and entitlement, and of labour and privilege. Dazzling, funny and unforgettable, it is an epic and forensic exploration of modern love and passion, politics and power. The Work announces a brilliant new voice in Australian fiction.""",
 
-    "Disorientation": """**Disorientation**  
+    "Disorientation": """**Disorientation by Elaine Hsieh Chou**  
 *Funny, reflective, satirical fiction.*
 
 An academic satire that dives deep into cultural identity, racism, and belonging.
@@ -232,7 +232,7 @@ Twenty-nine-year-old PhD student Ingrid Yang is desperate to finish her disserta
 But Ingrid’s in much deeper than she thinks. Her clumsy exploits to unravel the note’s message lead to an explosive discovery, upending not only her sheltered life within academia but her entire world beyond it. With her trusty friend Eunice Kim by her side and her rival Vivian Vo hot on her tail, together they set off a roller coaster of mishaps and misadventures, from book burnings and OTC drug hallucinations, to hot-button protests and Yellow Peril 2.0 propaganda. 
 In the aftermath, nothing looks the same to Ingrid—including her gentle and doting fiancé, Stephen Greene. When he embarks on a book tour with the super kawaii Japanese author he’s translated, doubts and insecurities creep in for the first time… As the events Ingrid instigated keep spiraling, she’ll have to confront her sticky relationship to white men and white institutions—and, most of all, herself.""",
 
-    "Interior Chinatown": """**Interior Chinatown**  
+    "Interior Chinatown": """**Interior Chinatown by Charles Yu**  
 *Funny, genre-bending fiction.*
 
 A witty critique of race and representation told through the lens of a screenplay format.
@@ -241,7 +241,7 @@ Willis Wu doesn’t perceive himself as the protagonist in his own life: he’s 
 
 After stumbling into the spotlight, Willis finds himself launched into a wider world than he’s ever known, discovering not only the secret history of Chinatown, but the buried legacy of his own family. Infinitely inventive and deeply personal, exploring the themes of pop culture, assimilation, and immigration—Interior Chinatown is Charles Yu’s most moving, daring, and masterful novel yet.""",
 
-    "The Book of Elsewhere": """**The Book of Elsewhere**  
+    "The Book of Elsewhere": """**The Book of Elsewhere by China Miéville & Keanu Reeves**  
 *Dark, genre-blurring fantasy.*
 
 Immortal warriors, mysterious forces, and gritty adventure collide in this mythic epic.
@@ -254,7 +254,7 @@ In the present day, a U.S. black-ops group has promised him they can help with t
 
 In a collaboration that combines Miéville’s singular style and creativity with Reeves’s haunting and soul-stirring narrative, these two inimitable artists have created something utterly unique, sure to delight existing fans and to create scores of new ones.""",
 
-    "Jack Charles: Born Again Blakfella": """**Jack Charles: Born Again Blakfella**  
+    "Jack Charles: Born Again Blakfella": """**Jack Charles: Born Again Blakfella by Jack Charles & Namila Benson**  
 *Emotional, challenging memoir.*
 
 A powerful story of survival, culture, addiction, and redemption by a legendary performer and activist.
@@ -267,14 +267,14 @@ In this honest and no-holds-barred memoir, Uncle Jack reveals the ‘ups and dow
 
 By turns heartbreaking and hilarious, Jack Charles: Born-again Blakfella is a candid and uplifting memoir from one of Australia’s finest and most beloved actors.""",
 
-    "The True Deceiver": """**The True Deceiver**  
+    "The True Deceiver": """**The True Deceiver by Tove Jansson**  
 *Mysterious, literary fiction.*
 
 A slow-burning psychological tale of deception, loneliness, and shifting power.
 
 In the deep winter snows of a Swedish hamlet, a strange young woman fakes a break-in at the house of an elderly artist in order to persuade her that she needs companionship. But what does she hope to gain by doing this? And who ultimately is deceiving whom? In this portrayal of two women grappling with truth and lies, nothing can be taken for granted. By the time the snow thaws, both their lives will have changed irrevocably.""",
 
-    "Unmasking Autism": """**Unmasking Autism**  
+    "Unmasking Autism": """**Unmasking Autism: Discovering the New Faces of Neurodiversity by Devon Price**  
 *Reflective, informative non-fiction.*
 
 A compassionate guide to understanding and embracing neurodivergence and authenticity.
@@ -283,7 +283,7 @@ For every visibly Autistic person you meet, there are countless “masked” Aut
 
 In Unmasking Autism, Dr. Devon Price shares his personal experience with masking and blends history, social science research, prescriptions, and personal profiles to tell a story of neurodivergence that has thus far been dominated by those on the outside looking in. For Dr. Price and many others, Autism is a deep source of uniqueness and beauty. Unfortunately, living in a neurotypical world means it can also be a source of incredible alienation and pain. Most masked Autistic individuals struggle for decades before discovering who they truly are. They are also more likely to be marginalized in terms of race, gender, sexual orientation, class, and other factors, which contributes to their suffering and invisibility. Dr. Price lays the groundwork for unmasking and offers exercises that encourage self-expression.""",
 
-    "Everything is Tuberculosis": """**Everything is Tuberculosis**  
+    "Everything is Tuberculosis": """**Everything is Tuberculosis by John Green**  
 *Science, history, equity.*
 
 John Green explores global health, human stories, and the weird corners of illness with wit and compassion.
@@ -294,7 +294,7 @@ In 2019, John Green met Henry, a young tuberculosis patient at Lakka Government 
  
 In Everything is Tuberculosis, John tells Henry’s story, woven through with the scientific and social histories of how tuberculosis has shaped our world and how our choices will shape the future of tuberculosis.""",
 
-    "The Darkness Outside Us": """**The Darkness Outside Us**  
+    "The Darkness Outside Us": """**The Darkness Outside Us by Eliot Schrefer**  
 *Emotional YA sci-fi.*
 
 Enemies-turned-allies must survive alone in deep space, with queer romance and mind-bending mysteries.
@@ -303,7 +303,7 @@ Two boys, alone in space. Sworn enemies sent on the same rescue mission.
 Ambrose wakes up on the Coordinated Endeavor with no memory of a launch. There’s more that doesn’t add up: evidence indicates strangers have been on board, the ship’s operating system is voiced by his mother, and his handsome, brooding shipmate has barricaded himself away. But nothing will stop Ambrose from making his mission succeed—not when he’s rescuing his own sister.
 In order to survive the ship’s secrets, Ambrose and Kodiak will need to work together and learn to trust each other . . . especially once they discover what they are truly up against. Love might be the only way to survive.""",
 
-    "Crying in H Mart": """**Crying in H Mart by SOMEONE**  
+    "Crying in H Mart": """**Crying in H Mart by Michelle Zauner**  
     
 *An emotional, reflective memoir.*
 
@@ -313,7 +313,7 @@ In this exquisite story of family, food, grief, and endurance, Michelle Zauner p
 As she grew up, moving to the East Coast for college, finding work in the restaurant industry, and performing gigs with her fledgling band–and meeting the man who would become her husband–her Koreanness began to feel ever more distant, even as she found the life she wanted to live. It was her mother’s diagnosis of terminal cancer, when Michelle was twenty-five, that forced a reckoning with her identity and brought her to reclaim the gifts of taste, language, and history her mother had given her.
 Vivacious and plainspoken, lyrical and honest, Zauner’s voice is as radiantly alive on the page as it is onstage. Rich with intimate anecdotes that will resonate widely, and complete with family photos, Crying in H Mart is a book to cherish, share, and reread.""",
 
-    "Greta and Valdin": """**Greta and Valdin**  
+    "Greta and Valdin": """**Greta and Valdin by Rebecca K. Reilly**  
 *Light-hearted, queer literary fiction.*
 
 A hilarious, touching sibling story about culture, crushes, and growing up in Auckland.
