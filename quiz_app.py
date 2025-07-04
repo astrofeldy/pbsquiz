@@ -265,7 +265,7 @@ if st.button("Submit"):
 
         if len(top_books) > 1:
             st.write("Other strong matches:")
-             for book, score in top_books[1:]:
+            for book, score in top_books[1:]:
                 st.markdown(f"**{book}** (matched {score} times)")
                 st.markdown(f"_{book_info.get(book, 'No description available.')}_")
 
