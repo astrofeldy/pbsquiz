@@ -60,21 +60,20 @@ def display_question(q_num):
 current_q = st.session_state.current_q
 answer = display_question(current_q)
 
+# Always show the Next button
+next_clicked = st.button("Next")
+
+# Only advance if both an answer is selected and the button was clicked
 if answer is not None:
-    # Save answer
     st.session_state.answers[f"q{current_q+1}"] = answer[0]
-
-    # Show Next button only if not last question
-    if current_q < len(quiz_data) - 1:
-        if st.button("Next"):
+    if next_clicked:
+        if current_q < len(quiz_data) - 1:
             st.session_state.current_q += 1
-            st.experimental_rerun()
-    else:
-        st.write("🎉 You've completed the quiz!")
-        # Here you can add code to tally & show results
+        else:
+            st.write("🎉 You've completed the quiz!")
 else:
-    st.warning("Please select an answer to continue.")
-
+    if next_clicked:
+        st.warning("Please select an answer before continuing.")
 
 
 # Store answers using Streamlit's session state
