@@ -2,19 +2,18 @@ import streamlit as st
 
 st.set_page_config(page_title="Paperbacks & Snacks Quiz", page_icon="📚")
 
-st.title("📚 Paperbacks and Snacks 6 Month Recs Quiz!")
+# markdown
+st.markdown(
+    "<h2 style='color:#FF69B4; font-family:Comic Sans MS;'>✨ Paperbacks and Snacks: The Half-Way-Highlights Quiz!</h2>",
+    unsafe_allow_html=True
+)
+
+#st.title("📚 Paperbacks and Snacks 6 Month Recs Quiz!")
 st.write("Welcome to the highlights reel! Answer the following 10 very normal, very serious questions to find your next perfect read, based on the FB group thread of our half-way-highlights!")
 
 # Store answers using Streamlit's session state
 if "answers" not in st.session_state:
     st.session_state.answers = {}
-
-# markdown
-st.markdown(
-    "<h2 style='color:#FF69B4; font-family:Comic Sans MS;'>✨ Paperbacks and Snacks: The Quiz</h2>",
-    unsafe_allow_html=True
-)
-
 
 # Question 1
 st.subheader("Question 1: You meet your future self in a dream. They offer one cryptic sentence. What is it?")
