@@ -30,9 +30,15 @@ q1 = st.radio(
     index=None
 )
 
-# Store the selected answer
-st.session_state.answers["q1"] = q1[0]  # stores just the letter (A, B, etc.)
+# next button
+if q1 is not None:
+    if st.button("Next"):
+        # Logic to move to the next question
+        st.session_state.current_question = 2
+else:
+    st.button("Next", disabled=True)
+    st.warning("Please select an answer to continue.")
 
 # temporary checking
-#st.write("Current answers:", st.session_state.answers)
+st.write("Current answers:", st.session_state.answers)
 
