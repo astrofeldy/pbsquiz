@@ -11,8 +11,11 @@ st.markdown(
 #st.title("📚 Paperbacks and Snacks 6 Month Recs Quiz!")
 st.write("Welcome to the highlights reel! Answer the following 10 very normal, very serious questions to find your next perfect read, based on the FB group thread of our half-way-highlights!")
 
-# storing the questions
+# Store answers in session state
+if "answers" not in st.session_state:
+    st.session_state.answers = {}
 
+# Quiz questions
 quiz_data = [
     {
         "question": "You meet your future self in a dream. They offer one cryptic sentence. What is it?",
@@ -34,47 +37,29 @@ quiz_data = [
             "E) How to take a good selfie and dismantle capitalism at the same time"
         ]
     },
-    # ... add all 10 questions here in same format
+    # Add remaining 8 questions...
 ]
 
-
-# function to display a question and store answer
-
-if "current_q" not in st.session_state:
-    st.session_state.current_q = 0
-
-if "answers" not in st.session_state:
-    st.session_state.answers = {}
-
-def display_question(q_num):
-    q = quiz_data[q_num]
-    st.subheader(f"{q_num + 1}. {q['question']}")
-    answer = st.radio(
+# Display all questions at once
+for i, q in enumerate(quiz_data):
+    st.subheader(f"{i + 1}. {q['question']}")
+    selected = st.radio(
         "Choose one:",
         options=q["options"],
-        key=f"q{q_num}_radio",
-        index=None,
+        key=f"q{i}_radio",
+        index=None
     )
-    return answer
+    if selected:
+        st.session_state.answers[f"q{i+1}"] = selected[0]  # store only the letter A/B/C/etc.
 
-current_q = st.session_state.current_q
-answer = display_question(current_q)
-
-# Always show the Next button
-next_clicked = st.button("Next")
-
-# Only advance if both an answer is selected and the button was clicked
-if answer is not None:
-    st.session_state.answers[f"q{current_q+1}"] = answer[0]
-    if next_clicked:
-        if current_q < len(quiz_data) - 1:
-            st.session_state.current_q += 1
-        else:
-            st.write("🎉 You've completed the quiz!")
-else:
-    if next_clicked:
-        st.warning("Please select an answer before continuing.")
-
+# Submit button
+if st.button("Submit"):
+    if len(st.session_state.answers) < len(quiz_data):
+        st.warning("Please answer all questions before submitting!")
+    else:
+        st.success("🎉 You've completed the quiz!")
+        # Add scoring logic here and show book recommendation
+        st.write("📚 Your perfect book match is... [placeholder]")
 
 # Store answers using Streamlit's session state
 # if "answers" not in st.session_state:
