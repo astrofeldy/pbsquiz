@@ -34,5 +34,5 @@ q1 = st.radio(
 st.session_state.answers["q1"] = q1[0]  # stores just the letter (A, B, etc.)
 
 # temporary checking
-st.write("Current answers:", st.session_state.answers)
+#st.write("Current answers:", st.session_state.answers)
 
