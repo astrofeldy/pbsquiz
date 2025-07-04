@@ -40,10 +40,6 @@ quiz_data = [
 
 # function to display a question and store answer
 
-import streamlit as st
-
-quiz_data = [ ... ]  # your quiz_data list here
-
 if "current_q" not in st.session_state:
     st.session_state.current_q = 0
 
