@@ -79,7 +79,7 @@ if answer is not None:
 else:
     st.warning("Please select an answer to continue.")
 
-display_question(st.session_state.current_q, quiz_data[st.session_state.current_q])
+## display_question(st.session_state.current_q, quiz_data[st.session_state.current_q])
 
 
 
